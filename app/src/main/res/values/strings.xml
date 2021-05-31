@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rem¡ndMe</string>
+    <string name="developed_by">Developed by Dalal Bin Humaid</string>
+    <string name="example_task">here\'s my task</string>
+    <string name="title_reminders">My Rem¡nders</string>
+    <string name="add_title">Add a Rem¡nder</string>
+    <string name="task_title_hint">task title</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="time">hh:mm</string>
+    <string name="title_details">Rem¡nder Details</string>
+</resources>

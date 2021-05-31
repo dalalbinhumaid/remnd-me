@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/card"
+    android:id="@+id/viewLayout" >
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        app:buttonTint="@color/light_pink"/>
+
+    <TextView
+        android:id="@+id/task"
+        android:fontFamily="@font/poppins"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/light_orange"
+        android:paddingStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:text="@string/example_task" />
+
+    <ImageView
+        android:id="@+id/importance"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        app:srcCompat="@drawable/highimp"
+        android:contentDescription="@string/app_name" />
+
+
+</LinearLayout>
